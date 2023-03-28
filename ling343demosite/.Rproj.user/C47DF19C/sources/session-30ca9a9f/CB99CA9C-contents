@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    port: 3972
+
+website:
+  title: "ling343demosite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - mynewpage.qmd
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+
+
+
